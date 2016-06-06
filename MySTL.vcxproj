@@ -126,7 +126,9 @@
     <ClInclude Include="List.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Profiler.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="ReverseIterator.h" />
+    <ClInclude Include="Slist.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="TypeTraits.h" />

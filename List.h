@@ -90,6 +90,7 @@ namespace MySTL
 		list& operator=(const list&);
 		~list();
 		//***********************************************************
+		bool empty() const { return isEmpty(); }
 		bool isEmpty() const;
 		size_type size() const;
 		reference front() { return (head.p->data); }
