@@ -127,6 +127,7 @@
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Profiler.h" />
     <ClInclude Include="ReverseIterator.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="String.h" />
     <ClInclude Include="TypeTraits.h" />
     <ClInclude Include="UninitializedFunctions.h" />
