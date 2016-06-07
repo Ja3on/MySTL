@@ -125,6 +125,12 @@ namespace MySTL
 		return static_cast<typename iterator_traits<Iterator>::
 			difference_type*> (0);
 	}
+	template <typename Iterator>
+	inline typedef iterator_traits<Iterator>::difference_type*
+		distance_type(const Iterator& it)
+	{
+		return difference_type(it);
+	}
 
 }
 
