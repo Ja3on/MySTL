@@ -113,7 +113,7 @@ namespace MySTL
 			const T *ptr_;
 			cntrPtr container_;
 			stack<const T*> parent_;//保存从root到ptr_的父节点的路径
-			std::set<const T*> visitied_;//当前节点是否被访问过
+			std::set<const T*> visited_;//当前节点是否被访问过
 		public:
 			bst_iter(const T* ptr, cntrPtr container);
 			operator const T*() { return ptr_; }
@@ -127,7 +127,7 @@ namespace MySTL
 			{ return bst_iter(ptr_->right_, container_); }
 			
 			bst_iter& operator++();
-			bst_iter& operator++(int);
+			bst_iter operator++(int);
 
 		public:
 			template <typename T>

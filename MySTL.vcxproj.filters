@@ -96,6 +96,24 @@
     <ClInclude Include="Slist.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SuffixArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Priority_Queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\BinarySearchTree.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">

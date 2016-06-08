@@ -57,5 +57,5 @@ namespace MySTL
 		void THROW(size_t) const;
 	};
 }
-#include "../MySTL/Detail/Bitmap.impl.h"
+//#include "../MySTL/Detail/Bitmap.impl.h"
 #endif // !_BITMAP_H
