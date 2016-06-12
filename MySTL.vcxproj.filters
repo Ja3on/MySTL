@@ -114,6 +114,12 @@
     <ClInclude Include="Detail\BinarySearchTree.impl.h">
       <Filter>Detail</Filter>
     </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\AVLTree.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">

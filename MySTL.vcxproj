@@ -113,11 +113,13 @@
     <ClInclude Include="Algorithm.h" />
     <ClInclude Include="alloc.h" />
     <ClInclude Include="Allocator.h" />
+    <ClInclude Include="AVLTree.h" />
     <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="Bitmap.h" />
     <ClInclude Include="Construct.h" />
     <ClInclude Include="COWPtr.h" />
     <ClInclude Include="Deque.h" />
+    <ClInclude Include="Detail\AVLTree.impl.h" />
     <ClInclude Include="Detail\BinarySearchTree.impl.h" />
     <ClInclude Include="Detail\COWPtr.impl.h" />
     <ClInclude Include="Detail\Deque.impl.h" />
