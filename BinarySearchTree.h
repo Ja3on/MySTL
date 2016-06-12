@@ -1,12 +1,14 @@
 #pragma once
 #ifndef _BINARY_SEARCH_TREE_H
 #define _BINARY_SEARCH_TREE_H
+#include <deque>
 
 #include "../MySTL/Allocator.h"
 #include "../MySTL/Iterator.h"
 #include "../MySTL/Queue.h"
 #include "../MySTL/Stack.h"
 #include "../MySTL/String.h"
+#include "../MySTL/Deque.h"
 
 #include <set>
 #include <iostream>
