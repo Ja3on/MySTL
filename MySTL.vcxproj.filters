@@ -120,9 +120,15 @@
     <ClInclude Include="Detail\AVLTree.impl.h">
       <Filter>Detail</Filter>
     </ClInclude>
+    <ClInclude Include="TrieTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">
+      <Filter>Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\TrieTree.cpp">
       <Filter>Detail</Filter>
     </ClCompile>
   </ItemGroup>
