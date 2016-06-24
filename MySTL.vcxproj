@@ -116,6 +116,7 @@
     <ClInclude Include="AVLTree.h" />
     <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="CircularBuffer.h" />
     <ClInclude Include="Construct.h" />
     <ClInclude Include="COWPtr.h" />
     <ClInclude Include="Deque.h" />
@@ -124,7 +125,9 @@
     <ClInclude Include="Detail\COWPtr.impl.h" />
     <ClInclude Include="Detail\Deque.impl.h" />
     <ClInclude Include="Detail\List.impl.h" />
+    <ClInclude Include="Detail\RB_tree.impl.h" />
     <ClInclude Include="Detail\Ref.h" />
+    <ClInclude Include="Detail\Unordered_set.impl.h" />
     <ClInclude Include="Detail\Vector.impl.h" />
     <ClInclude Include="Functional.h" />
     <ClInclude Include="Heap.h" />
@@ -134,7 +137,9 @@
     <ClInclude Include="Priority_Queue.h" />
     <ClInclude Include="Profiler.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="RB_Tree.h" />
     <ClInclude Include="ReverseIterator.h" />
+    <ClInclude Include="set.h" />
     <ClInclude Include="Slist.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="String.h" />

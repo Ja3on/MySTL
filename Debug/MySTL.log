@@ -1,2 +1,114 @@
-﻿  alloc.cpp
-LINK : fatal error LNK1561: 必须定义入口点
+﻿  TrieTree.cpp
+c:\users\jason\documents\github\mystl\iterator.h(92): error C3646: “difference_type”: 未知重写说明符
+  c:\users\jason\documents\github\mystl\iterator.h(95): note: 参见对正在编译的类 模板 实例化“MySTL::iterator_traits<T*>”的引用
+c:\users\jason\documents\github\mystl\iterator.h(92): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\jason\documents\github\mystl\iterator.h(102): error C3646: “difference_type”: 未知重写说明符
+  c:\users\jason\documents\github\mystl\iterator.h(105): note: 参见对正在编译的类 模板 实例化“MySTL::iterator_traits<const T*>”的引用
+c:\users\jason\documents\github\mystl\iterator.h(102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\jason\documents\github\mystl\iterator.h(129): warning C4346: “difference_type”: 依赖名称不是类型
+  c:\users\jason\documents\github\mystl\iterator.h(129): note: 用“typename”为前缀来表示类型
+c:\users\jason\documents\github\mystl\iterator.h(129): error C2061: 语法错误: 标识符“difference_type”
+c:\users\jason\documents\github\mystl\iterator.h(135): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime.h(291): error C2065: “uintptr_t”: 未声明的标识符
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime.h(291): error C2146: 语法错误: 缺少“)”(在标识符“_StackCookie”的前面)
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime.h(299): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime.h(299): error C2146: 语法错误: 缺少“;”(在标识符“__security_cookie”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt.h(223): error C2061: 语法错误: 标识符“uintptr_t”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt.h(235): error C2061: 语法错误: 标识符“uintptr_t”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stddef.h(48): error C2143: 语法错误: 缺少“;”(在“__cdecl”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stddef.h(48): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stddef.h(48): error C2370: “uintptr_t”: 重定义；不同的存储类
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime.h(299): note: 参见“uintptr_t”的声明
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(163): error C2061: 语法错误: 标识符“uintptr_t”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(66): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(74): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(82): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(89): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(95): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(102): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(108): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(116): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(122): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(129): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(135): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(143): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(149): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(156): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(162): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(176): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(176): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(176): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(177): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(177): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(178): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(179): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(179): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(179): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(193): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(193): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(193): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(194): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(194): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(195): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(196): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(196): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(196): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(211): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(211): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(211): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(212): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(212): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(213): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(214): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(214): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(214): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(228): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(228): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(228): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(229): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(229): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(230): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(231): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(231): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(231): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(246): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(246): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(246): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(247): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(247): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(248): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(249): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(249): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(249): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(263): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(263): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(263): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(264): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(264): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(265): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(266): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(266): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(266): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(283): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(290): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(298): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(305): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(313): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(322): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(330): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(337): error C2061: 语法错误: 标识符“va_list”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(343): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(357): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(357): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(357): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(358): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(358): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(362): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(365): error C2065: “_ArgList”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(365): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(365): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(379): error C2065: “va_list”: 未声明的标识符
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(379): error C2146: 语法错误: 缺少“;”(在标识符“_ArgList”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wconio.h(379): fatal error C1003: 错误计数超过 100；正在停止编译
+  alloc.cpp
+  正在生成代码...

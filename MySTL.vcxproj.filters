@@ -126,6 +126,21 @@
     <ClInclude Include="Unordered_set.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Detail\Unordered_set.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="RB_Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\RB_tree.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">
