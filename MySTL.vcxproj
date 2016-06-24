@@ -122,6 +122,7 @@
     <ClInclude Include="Deque.h" />
     <ClInclude Include="Detail\AVLTree.impl.h" />
     <ClInclude Include="Detail\BinarySearchTree.impl.h" />
+    <ClInclude Include="Detail\CircularBuffer.impl.h" />
     <ClInclude Include="Detail\COWPtr.impl.h" />
     <ClInclude Include="Detail\Deque.impl.h" />
     <ClInclude Include="Detail\List.impl.h" />

@@ -134,5 +134,5 @@ namespace MySTL
 	};
 }
 
-
+#include "../MySTL/Detail/CircularBuffer.impl.h"
 #endif // !_CIRCULARBUFFER_H

@@ -141,6 +141,9 @@
     <ClInclude Include="CircularBuffer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Detail\CircularBuffer.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">
