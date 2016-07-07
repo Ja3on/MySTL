@@ -125,12 +125,14 @@
     <ClInclude Include="Detail\CircularBuffer.impl.h" />
     <ClInclude Include="Detail\COWPtr.impl.h" />
     <ClInclude Include="Detail\Deque.impl.h" />
+    <ClInclude Include="Detail\HashTable.impl.h" />
     <ClInclude Include="Detail\List.impl.h" />
     <ClInclude Include="Detail\RB_tree.impl.h" />
     <ClInclude Include="Detail\Ref.h" />
     <ClInclude Include="Detail\Unordered_set.impl.h" />
     <ClInclude Include="Detail\Vector.impl.h" />
     <ClInclude Include="Functional.h" />
+    <ClInclude Include="HashTable.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="Iterator.h" />
     <ClInclude Include="List.h" />

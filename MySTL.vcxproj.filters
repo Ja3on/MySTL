@@ -144,6 +144,12 @@
     <ClInclude Include="Detail\CircularBuffer.impl.h">
       <Filter>Detail</Filter>
     </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\HashTable.impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="alloc.cpp">
