@@ -86,7 +86,7 @@ namespace MySTL
 		circular_buffer(InputIterator, InputIterator);
 		circular_buffer(const circular_buffer&);
 		circular_buffer& operator=(const circular_buffer&);
-		circular_buffer& operator==(circular_buffer&&);//move 构造函数
+		circular_buffer& operator=(circular_buffer&&);//move 构造函数
 		~circular_buffer();
 
 		bool full() { return __size == N; }
